@@ -18,8 +18,6 @@ import streamlit as st
 
 model=joblib.load('failure_prediction.pkl')
 
-df
-
 st.set_page_config(page_title='Failure Prediction',layout="centered")
 st.title("Failure Classification App")
 st.write("predict whether the system is **operating** or **failing** under certain condition")
