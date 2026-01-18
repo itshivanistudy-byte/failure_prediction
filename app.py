@@ -42,7 +42,7 @@ if st.button("Predict"):
    Temperature
   ]])
   prediction=model.predict(input_data)[0]
-if prediction==1:
-  st.success("**operating**")
+if prediction==0:
+  st.success("**fail**")
 else:
-  st.error("**failing**")
+  st.error("**working**")
