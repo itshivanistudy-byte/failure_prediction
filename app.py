@@ -24,10 +24,10 @@ tempMode =st.number_input("value of tempMode",value=None)
 AQ =st.number_input("value of AQ",value=None)
 USS =st.number_input("value of USS",value=None)
 CS =st.number_input("value of CS",value=None)
-VOC =st.number_input("value of free sulfur dioxide",value=None)
-RP =	st.number_input("value of total sulfur dioxide",value=None)
-IP =st.number_input("value of density",value=None)
-Temperature	 =st.number_input("value of pH",value=None)
+VOC =st.number_input("value of VOC",value=None)
+RP =	st.number_input("value of RP",value=None)
+IP =st.number_input("value of IP",value=None)
+Temperature	 =st.number_input("value of Temperature",value=None)
 
 if st.button("Predict"):
   input_data=np.array([[
